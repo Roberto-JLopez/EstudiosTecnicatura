@@ -33,6 +33,38 @@
 ```
   git rm --cached -r (nombre_carpeta)
 ```
+ ## 3_Configuración Repositorio
+* *Configura tu nombre de usuario para todos tus repositorios*
+``` 
+git config --global user.name "Tu Nombre"
+```
+* *Configura tu correo electrónico*
+```
+git config --global user.email tuemail@example.com
+``` 
+* *Configura tu editor de texto preferido*
+```
+git config --global core.editor "tu_editor"
+```
+* *Ver los cambios generados/aplicados*
+```
+Git config --list
+```
+## 4_Creación y Clonación de Repositorios
+* *Inicializa un nuevo repositorio git en el directorio/carpeta actual*
+```
+git init	
+```
+* *Clona un repositorio remoto a tu máquina local*
+```
+git clone URL
+```
+* *direccion o hash de commit que quiero cargar*
+```
+Git checkout hash
+```
+
+
 
 ```
   ls
