@@ -89,100 +89,92 @@
 
 
 * *Agrega un repositorio remoto*  
-```
-git remote add (carpeta_local) (URL)
-```
+  ```
+  git remote add (carpeta_local) (URL)
+  ```
 * *Muestra los repositorios remotos configurados*
-```
-git remote -v
-```
-* *#Descarga cambios desde el repositorio remoto sin fusionarlos*
-```
-git fetch
-```
+  ```
+  git remote -v
+  ```
+ * *#Descarga cambios desde el repositorio remoto sin fusionarlos*
+  ```
+  git fetch
+  ```
 * *#Descarga y fusiona cambios desde el repositorio remoto*
-```
-git pull
-```
+  ```
+  git pull
+  ```
 * *#Envía tus commits a la rama especificada en el repositorio remoto*
-```
-git push origin (nombre_rama)
-```
+  ```
+  git push origin (nombre_rama)
+  ```
 * *se utiliza para eliminar una referencia a un repositorio remoto en tu repositorio local*
-```
-git remote remove (nombre_carpeta)
-```
+  ```
+  git remote remove (nombre_carpeta)
+  ```
 
-
+## 6_Trabajando con archivos
+* *Muestra el estado actual del repositorio (archivos modificados, agregados etc)*
+  ```
+  git status
+  ```
+  * *Para agregar archivos al area de preparacion*
+  ```
+  git add .
+  ```
+* *Para crear archivos especificos (hay que agregar el formato .txt, .md, .html*
+  ```
+  touch (nombre_archivo.formato)
+  ```
+  * *Elimina el archivo*
+  ```
+  git rm (archivo)
+  ```
+* *Guarduar los cambios o commits de los archivos puestos en el area de preparacion*
+  ```
+  git commit -m "Mensaje del commit"
+  ```
+* *hacer commit sin necesidad de git add . #Sólo con archivos modificado(No se puede utilizar con archivos nuevos)*
+  ```
+  git commit –am “escribimos el comentario de nuestro commit”
+  ```
+* * Eliminar un archivo del área de preparación y del repositorio (es decir, dejar de rastrearlo), pero mantenerlo en tu directorio de trabajo.*
+  ```
+  git rm --cached (nombre_carpeta)
+  ```
+* *Deshacer los cambios en el área de preparación (staging area) y restaurar el archivo a su estado en el último commit.*
+  ```
+   git restore --stage (nombre-del-archivo)
+  ```
+* **
   ```
   ls
   ```
+* **
+  ```
+  ls
+  ```
+* **
+  ```
+  ls
+  ```
+* **
+  ```
+  ls
+  ```
+* **
   ```
    ls
   ```
+* **
   ```
   ls
   ```
+* **
   ```
   ls
   ```
-  ```
-  ls
-  ```
-  ```
-  ls
-  ````
-  ```
-  ls
-  ```
-  ```
-  ls
-  ```
-  ```
-  ls
-  ```
-  ```
-   ls
-  ```
-  ```
-  ls
-  ```
-  ```
-  ls
-  ```
-  ```
-  ls
-  ```
-  ```
-  ls
-  ````
-  ```
-  ls
-  ```
-  ```
-  ls
-  ```
-  ```
-  ls
-  ```
-  ```
-   ls
-  ```
-  ```
-  ls
-  ```
-  ```
-  ls
-  ```
-  ```
-  ls
-  ```
-  ```
-  ls
-  ````
-  ```
-  ls
-  ```
+* **
   ```
   ls
   ```
