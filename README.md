@@ -84,6 +84,34 @@
   Git checkout hash
   ```
 
+  
+## 5_Remotos (Remotes)
+
+
+* *Agrega un repositorio remoto*  
+```
+git remote add (carpeta_local) (URL)
+```
+* *Muestra los repositorios remotos configurados*
+```
+git remote -v
+```
+* *#Descarga cambios desde el repositorio remoto sin fusionarlos*
+```
+git fetch
+```
+* *#Descarga y fusiona cambios desde el repositorio remoto*
+```
+git pull
+```
+* *#Envía tus commits a la rama especificada en el repositorio remoto*
+```
+git push origin (nombre_rama)
+```
+* *se utiliza para eliminar una referencia a un repositorio remoto en tu repositorio local*
+```
+git remote remove (nombre_carpeta)
+```
 
 
   ```
