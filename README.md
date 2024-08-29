@@ -1,40 +1,39 @@
 # Comandos Git
 ## 1_ Comandos basicos Crear-Mover-Ver Carpetas
+* *para ver las carpetas*
 ```
   ls
 ```
-* *para ver las carpetas*
+* *para dirigirnos a una carpeta especifica ejemplo $cd /d/repositorio*
 ```
   cd (nombre de la carpeta)
 ```
-* *para dirigirnos a una carpeta especifica ejemplo $cd /d/repositorio*
-
+* *para dirigirnos a la carpeta origen comunmente disco local C*
 ```
   cd 
 ```
-* *para dirigirnos a la carpeta origen comunmente disco local C*
+* *para ir a la carpeta/directorio anterior*
 ````
   cd ..
 ````
-* *para ir a la carpeta/directorio anterior*
-
 ## 2_Trabajando con carpetas
+* *para crear una carpeta nueva*
 ```
   mkdir (nombre de la carpeta)
 ```
-* *para crear una carpeta nueva*
+* *para borrar una carpeta vacia*
 ```
   rmdir (nombre de la carpeta)
 ```
-* *para borrar una carpeta vacia*
+* *borra una carpeta con archivos*
 ```
   rm -rf (nombre de la carpeta)
 ```
-* *borra una carpeta con archivos*
+* *quitar una carpeta con sus archivos del area de preparacion*
 ```
   git rm --cached -r (nombre_carpeta)
 ```
-* *quitar una carpeta con sus archivos del area de preparacion*
+
 ```
   ls
 ```
