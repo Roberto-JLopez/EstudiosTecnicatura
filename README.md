@@ -128,7 +128,7 @@
   ```
   * *Elimina el archivo*
   ```
-  git rm (archivo)
+  rm (archivo)
   ```
 * *Guarduar los cambios o commits de los archivos puestos en el area de preparacion*
   ```
