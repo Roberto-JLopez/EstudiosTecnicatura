@@ -114,6 +114,8 @@
   ```
 
 ## 6_Trabajando con archivos
+
+
 * *Muestra el estado actual del repositorio (archivos modificados, agregados etc)*
   ```
   git status
